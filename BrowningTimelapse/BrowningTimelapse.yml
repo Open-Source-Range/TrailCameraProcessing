@@ -1,0 +1,14 @@
+# Use this environment to run the BrowningTimelapseDateFix.py script.
+# You must also have Google's Tesseract-OCR installed and either listed 
+# in the system PATH variable or edit the pathway to it in the .py script.
+
+name: browning-timelapse
+
+dependencies:
+- python>=3.7, <=3.9.5
+- Pillow>=8.2.0
+- pandas>=1.3.1
+- pip>=18.*
+- pip:
+  - pytesseract>=0.3.8
+  - piexif>=1.1.3
